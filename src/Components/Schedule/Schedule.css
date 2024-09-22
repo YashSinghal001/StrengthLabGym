@@ -1,0 +1,108 @@
+/* BAckImage */
+.backimg{
+    background-image: url("https://radiustheme.com/demo/wordpress/themes/gymat/wp-content/themes/gymat/assets/img/banner.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    height: 400px;
+    position: relative;
+}
+.bannercontact{
+    position: absolute;
+    top: 44%;
+    left: 5%;
+}
+.bannercontact h1{
+    color: white;
+    font-size: 50px;
+  
+}
+.breadss{
+    color: white;
+    display: inline-block;
+    padding: 0 50px;
+    background: url(https://radiustheme.com/demo/wordpress/themes/gymat/wp-content/themes/gymat/assets/css/../img/breadcumb-shape.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: -25px;
+} 
+.strenght{
+    transition: all .3s linear;
+}
+
+.strenght:hover{
+    cursor: pointer;
+    color: #ff0606 !important;
+}
+
+
+/* BAckImage */
+
+
+/* /Monday */
+
+.schedule-section {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.schedule-item {
+    background-color: #e2e2e2;
+    padding: 15px;
+    margin-bottom: 2px;
+    transition: background-color 0.3s;
+}
+.schedule-item:hover {
+    background-color: #f2f2f28e;
+}
+.schedule-label {
+    color: #6c757d;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+.schedule-value {
+    font-weight: 600;
+    margin-bottom: 0;
+    font-size: 20px;
+}
+.btn-join {
+    background-color: #555;
+    color: white;
+    border: none;
+    padding: 5px 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    font-size: 17px;
+}
+.btn-join:hover {
+    background-color: #5a6268;
+}
+.schedule-item .col-md-3 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+.schedule-item .col-md-3:last-child {
+    margin-bottom: 0;
+}
+
+/* Monday */
+
+
+@media only screen and (min-width: 768px) {
+    .schedule-item .col-md-3 {
+        text-align: left;
+        margin-bottom: 0;
+    }
+    .schedule-item .col-md-3:last-child {
+        text-align: right;
+    }
+    .tcntr{
+        text-align: center;
+    }
+    
+}
+@media only screen and (min-width: 1400px) {
+.schedule-value{
+    font-size: 17px;
+}
+}

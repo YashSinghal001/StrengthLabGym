@@ -1,0 +1,713 @@
+.backimgclass{
+    background:linear-gradient( #00000066 100%, #00000066 100%),url("https://demo2.wpopal.com/gofiz/wp-content/uploads/2024/08/bc-7.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    height: 400px;
+    position: relative;
+}
+.bannerclass{
+    position: absolute;
+    top: 50%;
+    left: 10%;
+}
+.bannerclass h1{
+    color: white;
+    font-size: 50px;
+    font-weight: 600;
+  
+}
+.breadssclass{
+    color: white;
+    display: inline-block;
+    padding: 0 50px;
+    background: url(https://radiustheme.com/demo/wordpress/themes/gymat/wp-content/themes/gymat/assets/css/../img/breadcumb-shape.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: -25px;
+} 
+.strenght{
+    transition: all .3s linear;
+    font-weight: 500;
+}
+
+.strenght:hover{
+    cursor: pointer;
+    color: #ff0606 !important;
+}
+/* Back Img */
+
+/* Navlink */
+.Clssmenu{
+    /* color: black !important; */
+}
+.classesbtn{
+    --color: #ff0606;
+    font-family: inherit;
+    display: flex;
+    /* width: 8em; */
+    justify-content: center;
+    align-items: center;
+    line-height: 20px;
+    height: 40px;
+    margin: 10px;
+    position: relative;
+    cursor: pointer;
+    overflow: hidden;
+    border: 2px solid var(--color);
+    transition: color 0.5s;
+    z-index: 1;
+    font-size: 17px;
+    border-radius: 20px;
+    font-weight: 500;
+    background-color: transparent;
+    padding: 10px;
+    color: var(--color);
+  }
+  
+  .classesbtn:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    background: var(--color);
+    height: 150px;
+    width: 200px;
+    border-radius: 50%;
+  }
+  
+  .classesbtn:hover {
+    color: #fff;
+  }
+  
+  .classesbtn:before {
+    top: 100%;
+    left: 100%;
+    transition: all 0.7s;
+  }
+  
+  .classesbtn:hover:before {
+    top: -30px;
+    left: -30px;
+  }
+  
+  .classesbtn:active:before {
+    background: #ff0606;
+    color: black !important;
+    transition: background 0s;
+  }
+  
+/* Navlink */
+
+/* class cardes */
+/* Flip Card */
+.flip-card {
+    background-color: transparent;
+    width: 250px;
+    height: 330px;
+    perspective: 1000px;
+    font-family: sans-serif;
+    cursor: pointer;
+    margin: 0px auto;
+    color: white !important;
+  }
+  
+  .titlecard {
+    font-size: 30px;
+    font-weight: 600;
+    text-align: center;
+    margin: 0;
+  }
+  
+  .flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+  }
+  
+  .flip-card:hover .flip-card-inner {
+    transform:scale(1.06) rotateY(180deg);
+  
+  }
+  
+  .flip-card-front1, .flip-card-back1 {
+    filter: drop-shadow(0 8px 14px  rgba(0, 0, 0, 0.2));
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    /* border-radius: 1rem; */
+    border-top-left-radius:20px ;
+    border-bottom-right-radius:20px ;
+ 
+
+  }
+  /* 1 */
+  .flip-card-front1 {
+    /* background: ; */
+    background: linear-gradient(195deg, rgba(255, 102, 102, 0.629), rgba(0, 5, 9, 0.147)) 0% 0% / cover, url(	https://demo2.wpopal.com/gofiz/wp-content/uploads/2024/08/class_13-1024x682.jpg) transparent;
+    padding: 20px;
+      background-size: cover;
+      font-weight: 500;
+      object-fit: cover;
+
+  }
+  
+  .flip-card-back1 {
+    background:  linear-gradient(195deg, rgba(254, 49, 49, 0.579), rgb(1 34 62 / 78%)) 0% 0% / cover, url(	https://demo2.wpopal.com/gofiz/wp-content/uploads/2024/08/class_13-1024x682.jpg) transparent;
+    padding: 20px;
+      background-size: cover;
+      object-fit: cover;
+    transform: rotateY(180deg);
+  }
+.timingclass{
+position: relative;
+    font-size: 16px;
+    top: 95px;
+
+}
+.titlecardback{
+    position: relative;
+    top: 45px;
+    font-size:16px;
+    font-weight: 600;
+    margin: 0;
+    padding: 0;
+}
+.aboutclas{
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+}
+.titlecardtitle{
+    font-size: 25px;
+    font-weight: 600;
+    margin: 0;
+}
+/* 2 */
+.flip-card-front2, .flip-card-back2 {
+    filter: drop-shadow(0 8px 14px  rgba(0, 0, 0, 0.2));
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    /* border-radius: 1rem; */
+    border-top-left-radius:20px ;
+    border-bottom-right-radius:20px ;
+ 
+
+  }
+  
+  .flip-card-front2 {
+    /* background: ; */
+    background: linear-gradient(195deg, rgba(255, 102, 102, 0.629), rgba(0, 5, 9, 0.147)) 0% 0% / cover, url(https://demo2.wpopal.com/gofiz/wp-content/uploads/2024/08/class_12-1024x683.jpg) transparent;
+    padding: 20px;
+      background-size: cover;
+      font-weight: 500;
+      object-fit: cover;
+
+  }
+  
+  .flip-card-back2 {
+    background:  linear-gradient(195deg, rgba(254, 49, 49, 0.579), rgb(1 34 62 / 78%)) 0% 0% / cover, url(https://demo2.wpopal.com/gofiz/wp-content/uploads/2024/08/class_12-1024x683.jpg) transparent;
+    padding: 20px;
+      background-size: cover;
+      object-fit: cover;
+    transform: rotateY(180deg);
+  }
+/* /2 */
+
+/* 3 */
+.flip-card-front3, .flip-card-back3 {
+    filter: drop-shadow(0 8px 14px  rgba(0, 0, 0, 0.2));
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    /* border-radius: 1rem; */
+    border-top-left-radius:20px ;
+    border-bottom-right-radius:20px ;
+ 
+
+  }
+  
+  .flip-card-front3 {
+    /* background: ; */
+    background: linear-gradient(195deg, rgba(255, 102, 102, 0.629), rgba(0, 5, 9, 0.147)) 0% 0% / cover, url(https://demo2.wpopal.com/gofiz/wp-content/uploads/2024/08/class_11-1024x667.jpg) transparent;
+    padding: 20px;
+      background-size: cover;
+      font-weight: 500;
+      object-fit: cover;
+
+  }
+  
+  .flip-card-back3{
+    background:  linear-gradient(195deg, rgba(254, 49, 49, 0.579), rgb(1 34 62 / 78%)) 0% 0% / cover, url(https://demo2.wpopal.com/gofiz/wp-content/uploads/2024/08/class_11-1024x667.jpg) transparent;
+    padding: 20px;
+      background-size: cover;
+      object-fit: cover;
+    transform: rotateY(180deg);
+  }
+/* 3 */
+
+/* 4 */
+.flip-card-front4, .flip-card-back4 {
+    filter: drop-shadow(0 8px 14px  rgba(0, 0, 0, 0.2));
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    /* border-radius: 1rem; */
+    border-top-left-radius:20px ;
+    border-bottom-right-radius:20px ;
+ 
+
+  }
+  
+  .flip-card-front4 {
+    /* background: ; */
+    background: linear-gradient(195deg, rgba(255, 102, 102, 0.629), rgba(0, 5, 9, 0.147)) 0% 0% / cover, url(https://demo2.wpopal.com/gofiz/wp-content/uploads/2024/08/class_10-1024x682.jpg) transparent;
+    padding: 20px;
+      background-size: cover;
+      font-weight: 500;
+      object-fit: cover;
+
+  }
+  
+  .flip-card-back4{
+    background:  linear-gradient(195deg, rgba(254, 49, 49, 0.579), rgb(1 34 62 / 78%)) 0% 0% / cover, url(https://demo2.wpopal.com/gofiz/wp-content/uploads/2024/08/class_10-1024x682.jpg) transparent;
+    padding: 20px;
+      background-size: cover;
+      object-fit: cover;
+    transform: rotateY(180deg);
+  }
+/* 4 */
+
+/* 5 */
+.flip-card-front5, .flip-card-back5 {
+    filter: drop-shadow(0 8px 14px  rgba(0, 0, 0, 0.2));
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    /* border-radius: 1rem; */
+    border-top-left-radius:20px ;
+    border-bottom-right-radius:20px ;
+ 
+
+  }
+  
+  .flip-card-front5 {
+    /* background: ; */
+    background: linear-gradient(195deg, rgba(255, 102, 102, 0.629), rgba(0, 5, 9, 0.147)) 0% 0% / cover, url(https://demo2.wpopal.com/gofiz/wp-content/uploads/2024/08/class_9-1024x682.jpg) transparent;
+    padding: 20px;
+      background-size: cover;
+      font-weight: 500;
+      object-fit: cover;
+
+  }
+  
+  .flip-card-back5{
+    background:  linear-gradient(195deg, rgba(254, 49, 49, 0.579), rgb(1 34 62 / 78%)) 0% 0% / cover, url(https://demo2.wpopal.com/gofiz/wp-content/uploads/2024/08/class_9-1024x682.jpg) transparent;
+    padding: 20px;
+      background-size: cover;
+      object-fit: cover;
+    transform: rotateY(180deg);
+  }
+/* 5 */
+
+/* 6 */
+.flip-card-front6, .flip-card-back6 {
+    filter: drop-shadow(0 8px 14px  rgba(0, 0, 0, 0.2));
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    /* border-radius: 1rem; */
+    border-top-left-radius:20px ;
+    border-bottom-right-radius:20px ;
+ 
+
+  }
+  
+  .flip-card-front6 {
+    /* background: ; */
+    background: linear-gradient(195deg, rgba(255, 102, 102, 0.629), rgba(0, 5, 9, 0.147)) 0% 0% / cover, url(https://demo2.wpopal.com/gofiz/wp-content/uploads/2024/08/class_8-1024x682.jpg) transparent;
+    padding: 20px;
+      background-size: cover;
+      font-weight: 500;
+      object-fit: cover;
+
+  }
+  
+  .flip-card-back6{
+    background:  linear-gradient(195deg, rgba(254, 49, 49, 0.579), rgb(1 34 62 / 78%)) 0% 0% / cover, url(https://demo2.wpopal.com/gofiz/wp-content/uploads/2024/08/class_8-1024x682.jpg) transparent;
+    padding: 20px;
+      background-size: cover;
+      object-fit: cover;
+    transform: rotateY(180deg);
+  }
+/* 6 */
+
+/* 7 */
+.flip-card-front7, .flip-card-back7 {
+    filter: drop-shadow(0 8px 14px  rgba(0, 0, 0, 0.2));
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    /* border-radius: 1rem; */
+    border-top-left-radius:20px ;
+    border-bottom-right-radius:20px ;
+ 
+
+  }
+  
+  .flip-card-front7 {
+    /* background: ; */
+    background: linear-gradient(195deg, rgba(255, 102, 102, 0.629), rgba(0, 5, 9, 0.147)) 0% 0% / cover, url(https://demo2.wpopal.com/gofiz/wp-content/uploads/2024/08/class_7-1024x682.jpg) transparent;
+    padding: 20px;
+      background-size: cover;
+      font-weight: 500;
+      object-fit: cover;
+
+  }
+  
+  .flip-card-back7{
+    background:  linear-gradient(195deg, rgba(254, 49, 49, 0.579), rgb(1 34 62 / 78%)) 0% 0% / cover, url(https://demo2.wpopal.com/gofiz/wp-content/uploads/2024/08/class_7-1024x682.jpg) transparent;
+    padding: 20px;
+      background-size: cover;
+      object-fit: cover;
+    transform: rotateY(180deg);
+  }
+/* 7 */
+
+/* 8 */
+.flip-card-front8, .flip-card-back8 {
+    filter: drop-shadow(0 8px 14px  rgba(0, 0, 0, 0.2));
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    /* border-radius: 1rem; */
+    border-top-left-radius:20px ;
+    border-bottom-right-radius:20px ;
+ 
+
+  }
+  
+  .flip-card-front8 {
+    /* background: ; */
+    background: linear-gradient(195deg, rgba(255, 102, 102, 0.629), rgba(0, 5, 9, 0.147)) 0% 0% / cover, url(https://demo2.wpopal.com/gofiz/wp-content/uploads/2024/08/class_6-1024x682.jpg) transparent;
+    padding: 20px;
+      background-size: cover;
+      font-weight: 500;
+      object-fit: cover;
+
+  }
+  
+  .flip-card-back8{
+    background:  linear-gradient(195deg, rgba(254, 49, 49, 0.579), rgb(1 34 62 / 78%)) 0% 0% / cover, url(https://demo2.wpopal.com/gofiz/wp-content/uploads/2024/08/class_6-1024x682.jpg) transparent;
+    padding: 20px;
+      background-size: cover;
+      object-fit: cover;
+    transform: rotateY(180deg);
+  }
+/* 8 */
+
+
+/* 9 */
+.flip-card-front9, .flip-card-back9 {
+    filter: drop-shadow(0 8px 14px  rgba(0, 0, 0, 0.2));
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    /* border-radius: 1rem; */
+    border-top-left-radius:20px ;
+    border-bottom-right-radius:20px ;
+ 
+
+  }
+  
+  .flip-card-front9 {
+    /* background: ; */
+    background: linear-gradient(195deg, rgba(255, 102, 102, 0.629), rgba(0, 5, 9, 0.147)) 0% 0% / cover, url(	https://demo2.wpopal.com/gofiz/wp-content/uploads/2024/08/class_5-1024x683.jpg) transparent;
+    padding: 20px;
+      background-size: cover;
+      font-weight: 500;
+      object-fit: cover;
+
+  }
+  
+  .flip-card-back9{
+    background:  linear-gradient(195deg, rgba(254, 49, 49, 0.579), rgb(1 34 62 / 78%)) 0% 0% / cover, url(	https://demo2.wpopal.com/gofiz/wp-content/uploads/2024/08/class_5-1024x683.jpg) transparent;
+    padding: 20px;
+      background-size: cover;
+      object-fit: cover;
+    transform: rotateY(180deg);
+  }
+/* 9 */
+
+/* 10 */
+.flip-card-front10, .flip-card-back10 {
+    filter: drop-shadow(0 8px 14px  rgba(0, 0, 0, 0.2));
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    /* border-radius: 1rem; */
+    border-top-left-radius:20px ;
+    border-bottom-right-radius:20px ;
+ 
+
+  }
+  
+  .flip-card-front10 {
+    /* background: ; */
+    background: linear-gradient(195deg, rgba(255, 102, 102, 0.629), rgba(0, 5, 9, 0.147)) 0% 0% / cover, url(https://demo2.wpopal.com/gofiz/wp-content/uploads/2024/08/class_4-1024x682.jpg) transparent;
+    padding: 20px;
+      background-size: cover;
+      font-weight: 500;
+      object-fit: cover;
+
+  }
+  
+  .flip-card-back10{
+    background:  linear-gradient(195deg, rgba(254, 49, 49, 0.579), rgb(1 34 62 / 78%)) 0% 0% / cover, url(https://demo2.wpopal.com/gofiz/wp-content/uploads/2024/08/class_4-1024x682.jpg) transparent;
+    padding: 20px;
+      background-size: cover;
+      object-fit: cover;
+    transform: rotateY(180deg);
+  }
+/* 10 */
+
+/* 11 */
+.flip-card-front11, .flip-card-back11 {
+    filter: drop-shadow(0 8px 14px  rgba(0, 0, 0, 0.2));
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    /* border-radius: 1rem; */
+    border-top-left-radius:20px ;
+    border-bottom-right-radius:20px ;
+ 
+
+  }
+  
+  .flip-card-front11 {
+    /* background: ; */
+    background: linear-gradient(195deg, rgba(255, 102, 102, 0.629), rgba(0, 5, 9, 0.147)) 0% 0% / cover, url(	https://demo2.wpopal.com/gofiz/wp-content/uploads/2024/08/class_3-768x512.jpg) transparent;
+    padding: 20px;
+      background-size: cover;
+      font-weight: 500;
+      object-fit: cover;
+
+  }
+  
+  .flip-card-back11{
+    background:  linear-gradient(195deg, rgba(254, 49, 49, 0.579), rgb(1 34 62 / 78%)) 0% 0% / cover, url(https://demo2.wpopal.com/gofiz/wp-content/uploads/2024/08/class_3-768x512.jpg) transparent;
+    padding: 20px;
+      background-size: cover;
+      object-fit: cover;
+    transform: rotateY(180deg);
+  }
+/* 11 */
+
+/* 12*/
+.flip-card-front12, .flip-card-back12 {
+    filter: drop-shadow(0 8px 14px  rgba(0, 0, 0, 0.2));
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    /* border-radius: 1rem; */
+    border-top-left-radius:20px ;
+    border-bottom-right-radius:20px ;
+ 
+
+  }
+  
+  .flip-card-front12 {
+    /* background: ; */
+    background: linear-gradient(195deg, rgba(255, 102, 102, 0.629), rgba(0, 5, 9, 0.147)) 0% 0% / cover, url(https://demo2.wpopal.com/gofiz/wp-content/uploads/2024/08/class_2-768x512.jpg) transparent;
+    padding: 20px;
+      background-size: cover;
+      font-weight: 500;
+      object-fit: cover;
+
+  }
+  
+  .flip-card-back12{
+    background:  linear-gradient(195deg, rgba(254, 49, 49, 0.579), rgb(1 34 62 / 78%)) 0% 0% / cover, url(https://demo2.wpopal.com/gofiz/wp-content/uploads/2024/08/class_2-768x512.jpg) transparent;
+    padding: 20px;
+      background-size: cover;
+      object-fit: cover;
+    transform: rotateY(180deg);
+  }
+/* 12 */
+
+/* 13 */
+.flip-card-front13, .flip-card-back13 {
+    filter: drop-shadow(0 8px 14px  rgba(0, 0, 0, 0.2));
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    /* border-radius: 1rem; */
+    border-top-left-radius:20px ;
+    border-bottom-right-radius:20px ;
+ 
+
+  }
+  
+  .flip-card-front13 {
+    /* background: ; */
+    background: linear-gradient(195deg, rgba(255, 102, 102, 0.629), rgba(0, 5, 9, 0.147)) 0% 0% / cover, url(https://demo2.wpopal.com/gofiz/wp-content/uploads/2024/08/class_1-768x512.jpg) transparent;
+    padding: 20px;
+      background-size: cover;
+      font-weight: 500;
+      object-fit: cover;
+
+  }
+  
+  .flip-card-back13{
+    background:  linear-gradient(195deg, rgba(254, 49, 49, 0.579), rgb(1 34 62 / 78%)) 0% 0% / cover, url(https://demo2.wpopal.com/gofiz/wp-content/uploads/2024/08/class_1-768x512.jpg) transparent;
+    padding: 20px;
+      background-size: cover;
+      object-fit: cover;
+    transform: rotateY(180deg);
+  }
+/* 13 */
+
+  /* /Flip Card */
+
+
+
+/*  */
+
+@media only screen and (min-width:350px)  {
+    .bannerclass{
+        left: 20%;
+    }
+    .flip-card{
+        width: 300px;
+        height: 350px;
+    }
+    .titlecard {
+font-size: 35px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width:450px)  {
+    .bannerclass{
+        left: 30%;
+    }
+}
+@media only screen and (min-width:550px)  {
+    .bannerclass{
+        left: 40%;
+    }
+}
+/* @media only screen and (min-width:650px)  {
+    .bannerclass{
+        left: 50%;
+    }
+} */
+@media only screen and (min-width:700px)
+{
+
+     /* .flip-card {
+      background-color: transparent;
+      width: 350px;
+      height:420px;
+      perspective: 1000px;
+      font-family: sans-serif;
+      cursor: pointer;
+      margin: 0px auto;
+    } */
+}
+
+@media only screen and (min-width:1400px)  {
+    .flip-card{
+        width: 380px;
+        height: 400px;
+    }
+    .timingclass{
+        font-size: 20px;
+    }
+
+}

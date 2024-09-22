@@ -1,0 +1,225 @@
+/* body {
+    background-color: #212529;
+    color: #fff;
+} */
+
+
+/* BAckImage */
+.backimg{
+    background-image: url("https://radiustheme.com/demo/wordpress/themes/gymat/wp-content/themes/gymat/assets/img/banner.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    height: 400px;
+    position: relative;
+}
+.bannercontact{
+    position: absolute;
+    top: 44%;
+    left: 5%;
+}
+.bannercontact h1{
+    color: white;
+    font-size: 50px;
+  
+}
+.breadss{
+    color: white;
+    display: inline-block;
+    padding: 0 50px;
+    background: url(https://radiustheme.com/demo/wordpress/themes/gymat/wp-content/themes/gymat/assets/css/../img/breadcumb-shape.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: -25px;
+} 
+.strenght{
+    transition: all .3s linear;
+}
+
+.strenght:hover{
+    cursor: pointer;
+    color: #ff0606 !important;
+}
+
+
+/* BAckImage */
+
+/* Section */
+.info-box {
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    background-color: transparent;
+    margin-bottom: 20px;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.info-box i {
+    font-size: 40px;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 50%;
+    color: #ff0606;
+    animation: pulse 2s infinite;
+}
+
+.info-box h4, .info-box p {
+    margin-bottom: 0;
+    transition: color 0.3s;
+}
+
+/* Hover Effects */
+.info-box:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.info-box:hover i {
+    transform: scale(1.1);
+}
+
+.info-box:hover h4,
+.info-box:hover p {
+    color: #ff0606;
+}
+
+.opening-hours span {
+    color: red;
+    transition: color 0.3s;
+}
+
+.info-box:hover .opening-hours span {
+    color: #ff0606;
+}
+
+
+
+/* Section */
+
+/* Form */
+.form-container {
+    border: 2px solid #495057;
+    border-radius: 10px;
+    padding: 2rem;
+    /* background-color: rgba(255, 255, 255, 0.8); */
+}
+.form-control, .form-select {
+    /* background-color: #343a40; */
+    color: #fff;
+    border-color: #495057;
+    padding-left: 2.5rem;
+}
+.form-control:focus, .form-select:focus {
+    background-color: #ffa9a916;
+    color: #000000;
+    border-color: #6c757d;
+    box-shadow: none !important;
+}
+.form-control::placeholder {
+    color: #6c757d;
+}
+.form-select option {
+    background-color: #000000;
+    color: #fff;
+}
+.input-icon {
+    position: absolute;
+    left: 1rem;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #6c757d;
+}
+.gym-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+/* From Uiverse.io by doniaskima */ 
+.btn-56,
+.btn-56 *,
+.btn-56 :after,
+.btn-56 :before,
+.btn-56:after,
+.btn-56:before {
+border: 0 solid;
+box-sizing: border-box;
+}
+
+.btn-56 {
+-webkit-tap-highlight-color: transparent;
+-webkit-appearance: button;
+background-color: #000;
+background-image: none;
+color: #fff;
+cursor: pointer;
+font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont,
+Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif,
+Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+font-size: 100%;
+line-height: 1.5;
+margin: 0;
+-webkit-mask-image: -webkit-radial-gradient(#000, #fff);
+padding: 0;
+}
+
+.btn-56:disabled {
+cursor: default;
+}
+
+.btn-56:-moz-focusring {
+outline: auto;
+}
+
+.btn-56 svg {
+display: block;
+vertical-align: middle;
+}
+
+.btn-56 [hidden] {
+display: none;
+}
+
+.btn-56 {
+border: 1px solid black;
+border-radius: 99px;
+box-sizing: border-box;
+display: block;
+font-weight: 700;
+-webkit-mask-image: none;
+overflow: hidden;
+padding: 11px 20px;
+position: relative;
+text-transform: uppercase;
+margin: 40px 0 0 0;
+}
+
+.btn-56:hover {
+-webkit-animation: pulse 0.5s;
+animation: pulse 1s;
+box-shadow: 0 0 0 15px transparent;
+}
+
+@-webkit-keyframes pulse {
+0% {
+box-shadow: 0 0 0 0 #ff9191;
+}
+}
+
+@keyframes pulse {
+0% {
+box-shadow: 0 0 0 0 #ff7b7b;
+}
+}
+/* Form */
+/* BAckImage */
+
+/* map */
+/* #map iframe{
+    width: 100%;
+    height: 400%;
+} */
+
+/* Map */

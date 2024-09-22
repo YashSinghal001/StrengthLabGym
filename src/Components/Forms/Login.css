@@ -1,0 +1,16 @@
+body{
+    /* background-color: rgba(0, 0, 0, 0.449) ; */
+}
+.bannercontact-cntr{
+    color: white;
+    font-size: 30px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+}
+.bannercontact-cntr h1{
+    font-size: 50px;
+    background-clip: text;
+    color: transparent;
+    background-image: linear-gradient(to right, #ffffff 50%, #ef233c 60%);
+}
